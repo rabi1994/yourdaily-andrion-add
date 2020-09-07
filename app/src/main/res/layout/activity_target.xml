@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/facebookblue"
+    tools:context=".TargetActivity">
+
+    <RadioGroup
+        android:layout_width="314dp"
+        android:layout_height="319dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="187dp">
+
+        <RadioButton
+            android:id="@+id/cuttingbutton"
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:text="@string/cutting"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/nautralbutton"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:text="@string/nautral"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/bulkingbutton"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:text="@string/bulking"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/choose_your_target"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:background="@drawable/mybutton"
+        android:layout_marginTop="579dp"
+        android:text="@string/update" />
+</RelativeLayout>

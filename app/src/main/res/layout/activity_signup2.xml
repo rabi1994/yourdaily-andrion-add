@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/facebookblue"
+    tools:context=".signup2">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="306dp"
+        android:layout_marginLeft="306dp"
+        android:layout_marginTop="134dp"
+        android:text="@string/age"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="280dp"
+        android:text="@string/height_meters"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="303dp"
+        android:layout_marginLeft="303dp"
+        android:layout_marginTop="209dp"
+        android:text="@string/weight"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="283dp"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="@string/height"
+        android:importantForAutofill="no"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="130dp"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="phone"
+        android:hint="@string/age"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginLeft="77dp"
+        android:layout_marginTop="206dp"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="@string/weight"
+        android:importantForAutofill="no"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="149dp"
+        android:background="@drawable/mybutton"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="521dp"
+        android:text="@string/done" />
+
+    <RadioGroup
+        android:layout_width="274dp"
+        android:layout_height="108dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="398dp">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:text="@string/cutting" />
+
+        <RadioButton
+            android:id="@+id/nautralbutton"
+            android:layout_width="match_parent"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="@string/nautral" />
+
+        <RadioButton
+            android:id="@+id/bulkingbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:text="@string/bulking" />
+    </RadioGroup>
+
+</RelativeLayout>

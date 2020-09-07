@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "61701650146",
+    "firebase_url": "https://yourdaily-fefd7.firebaseio.com",
+    "project_id": "yourdaily-fefd7",
+    "storage_bucket": "yourdaily-fefd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61701650146:android:119739b47226424d",
+        "android_client_info": {
+          "package_name": "com.example.yourdailyproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61701650146-3bsdc1fg1sg8beb22j8aor7sdcg7jlo2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yourdailyproject",
+            "certificate_hash": "4c34561fa1b62a61cc8881774ced9fa14f4d562d"
+          }
+        },
+        {
+          "client_id": "61701650146-h4ulrovke0m14o848tcjk7pofm809r34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSLPgPcwbWm3HTsWme4JdXlWnQOZTZi0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61701650146-h4ulrovke0m14o848tcjk7pofm809r34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61701650146:android:c550ee982b0d842e",
+        "android_client_info": {
+          "package_name": "com.package.name"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61701650146-h4ulrovke0m14o848tcjk7pofm809r34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSLPgPcwbWm3HTsWme4JdXlWnQOZTZi0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61701650146-h4ulrovke0m14o848tcjk7pofm809r34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
